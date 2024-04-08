@@ -9,3 +9,5 @@ shinywidgets - a wrapper for complex widgets like plotly charts
 favicon
 ipyleaflet
 shinyswatch
+yfinance
+cufflinks
