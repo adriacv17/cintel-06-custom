@@ -66,7 +66,7 @@ NOTE:
 * We install packages into the project virtual environment.
 * We import packages into Python code (after they have been installed).
 
-First, upgrade pip and setuptools (core packages) for good measure. NOTE: Using the palmerpenguins package requires setuptools. Then, install the project-specific required packages.
+First, upgrade pip and setuptools (core packages) for good measure. Then, install the project-specific required packages.
 
 With the project virtual environment active in the terminal, run the following commands:
 
@@ -78,7 +78,7 @@ Installing packages is generally a one-time setup.
 ## Run the App
 With your project virtual environment active in the terminal and the necessary packages installed, run the app with live reloading and automatically open it in the browser:
 
-        shiny run --reload --launch-browser penguins/app.py
+        shiny run --reload --launch-browser dashboard/app.py
 
 While the app is running, that terminal is fully occupied. Open a new terminal to run other commands.
 
