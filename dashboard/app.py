@@ -11,6 +11,7 @@ from stocks import stocks
 import plotly.graph_objects as go
 from datetime import datetime
 import plotly
+from plotly.subplots import make_subplots
 
 # Default to the last 30 days
 end = pd.Timestamp.now()
